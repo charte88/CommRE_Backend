@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e12919df-7aa2-4a76-9854-9030d584ca78" name="Default Changelist" comment="" />
+    <list default="true" id="e12919df-7aa2-4a76-9854-9030d584ca78" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/react-frontend/src/components/CreatePropertyComponent.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/react-frontend/src/components/FooterComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/react-frontend/src/components/HeaderComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/react-frontend/src/components/ViewPropertyComponent.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/react-frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/react-frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/react-frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/react-frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/react-frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/react-frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/react-frontend/src/components/PropertyComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/react-frontend/src/components/PropertyComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/react-frontend/src/services/PropertyService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/react-frontend/src/services/PropertyService.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +27,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1xEdwNTD68KGep1OITlWqu2hpdZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -26,6 +44,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/react-frontend/src/services" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -71,11 +90,28 @@
       <workItem from="1629933188102" duration="1561000" />
       <workItem from="1629934785356" duration="12715000" />
       <workItem from="1630002667986" duration="5793000" />
-      <workItem from="1630009038347" duration="2698000" />
+      <workItem from="1630009038347" duration="3303000" />
+      <workItem from="1630013464441" duration="1955000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
