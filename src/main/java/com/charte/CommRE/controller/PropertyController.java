@@ -15,6 +15,8 @@ import com.charte.CommRE.repository.PropertyRepository;
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
 
+// @RestController indicates that the data returned by each method will be written straight into the response body instead of rendering a template
+// @RequestMapping flags the index() method to support the / route
 
 @CrossOrigin(origins = "http://localhost:3000")
 @RestController
@@ -24,27 +26,31 @@ public class PropertyController {
     @Autowired
     private PropertyRepository propertyRepository;
 
+    // An PropertyRepository is injected by constructor into the controller
     PropertyController(PropertyRepository propertyRepository) {
         this.propertyRepository = propertyRepository;
     }
 
-
+    // Aggregate root
+    // tag::get-aggregate-root[]
     @GetMapping("/properties")
     public List<Property> getAllProperties() {
         return (List<Property>) propertyRepository.findAll();
     }
+    // end::get-aggregate-root[]
 
     @PostMapping("/properties")
     public Property newProperty(@RequestBody Property newProperty) {
         return propertyRepository.save(newProperty);
     }
 
-    // Single item
+    // Single property
 
     @GetMapping("/properties/{id}")
     public Property getPropertyById(@PathVariable Long id) {
 
         return propertyRepository.findById(id)
+                // PropertyNotFoundException is an exception used to indicate when an property is looked up but not found
                 .orElseThrow(() -> new PropertyNotFoundException(id));
     }
 

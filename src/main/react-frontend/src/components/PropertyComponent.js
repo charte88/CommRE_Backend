@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import PropertyService from '../services/PropertyService'
+import '../App.css';
 
 class PropertyComponent extends Component {
     constructor(props) {
@@ -65,6 +66,7 @@ class PropertyComponent extends Component {
                                 this.state.properties.map(
                                     property =>
                                         <tr key={property.id}>
+
                                             <td> {property.name} </td>
                                             <td> {property.state} </td>
                                             <td> {property.city} </td>

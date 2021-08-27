@@ -2,16 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e12919df-7aa2-4a76-9854-9030d584ca78" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/react-frontend/src/components/CreatePropertyComponent.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/react-frontend/src/components/FooterComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/react-frontend/src/components/HeaderComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/react-frontend/src/components/ViewPropertyComponent.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/charte/CommRE/CommReApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/charte/CommRE/CommReApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/charte/CommRE/controller/PropertyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/charte/CommRE/controller/PropertyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/charte/CommRE/controller/PropertyNotFoundAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/charte/CommRE/controller/PropertyNotFoundAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/charte/CommRE/controller/PropertyNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/charte/CommRE/controller/PropertyNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/charte/CommRE/model/Property.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/charte/CommRE/model/Property.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/charte/CommRE/repository/PropertyRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/charte/CommRE/repository/PropertyRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/react-frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/react-frontend/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/react-frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/react-frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/react-frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/react-frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/react-frontend/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/react-frontend/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/react-frontend/src/components/PropertyComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/react-frontend/src/components/PropertyComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/react-frontend/src/services/PropertyService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/react-frontend/src/services/PropertyService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/charte/CommRE/CommReApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/charte/CommRE/CommReApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/charte/CommRE/controller/PropertyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/charte/CommRE/controller/PropertyController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/charte/CommRE/controller/PropertyNotFoundAdvice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/charte/CommRE/controller/PropertyNotFoundAdvice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/charte/CommRE/controller/PropertyNotFoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/charte/CommRE/controller/PropertyNotFoundException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/charte/CommRE/model/Property.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/charte/CommRE/model/Property.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +32,7 @@
       <list>
         <option value="JavaScript File" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -91,7 +100,8 @@
       <workItem from="1629934785356" duration="12715000" />
       <workItem from="1630002667986" duration="5793000" />
       <workItem from="1630009038347" duration="3303000" />
-      <workItem from="1630013464441" duration="1955000" />
+      <workItem from="1630013464441" duration="5345000" />
+      <workItem from="1630025391731" duration="486000" />
     </task>
     <servers />
   </component>

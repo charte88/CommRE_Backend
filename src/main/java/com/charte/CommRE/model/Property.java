@@ -1,10 +1,11 @@
 package com.charte.CommRE.model;
 
-import com.fasterxml.jackson.databind.annotation.JsonAppend;
-
 import javax.persistence.*;
 import java.util.Objects;
 
+// @Entity is a JPA annotation to make this object ready for storage in a JPA-based data store
+// id, name, state, city..., and price are attributes of our Property domain object. id is marked with more JPA annotations to
+// indicate it’s the primary key and automatically populated by the JPA provider
 @Entity
 @Table(name = "properties")
 public class Property {
@@ -18,15 +19,16 @@ public class Property {
     private String address1;
     private String address2;
     private String listingName;
-    private Integer listingDate;
+    private String listingDate;
     private boolean isActive;
     private Integer price;
 
     public Property() {}
 
+    // A custom constructor is created when we need to create a new instance, but don’t yet have an id
     public Property(String name, String state, String city,
                     String address1, String address2, String listingName,
-                    Integer listingDate, boolean isActive, Integer price) {
+                    String listingDate, boolean isActive, Integer price) {
 
         this.name = name;
         this.state = state;
@@ -114,11 +116,11 @@ public class Property {
         this.listingName = listingName;
     }
 
-    public Integer getListingDate() {
+    public String getListingDate() {
         return listingDate;
     }
 
-    public void setListingDate(Integer listingDate) {
+    public void setListingDate(String listingDate) {
         this.listingDate = listingDate;
     }
 

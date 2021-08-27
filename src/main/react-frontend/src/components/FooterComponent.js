@@ -5,15 +5,15 @@ class FooterComponent extends Component {
         super(props)
 
         this.state = {
-                 
+
         }
     }
 
     render() {
         return (
             <div>
-                <footer className = "footer">
-                <div><a href="http://www.linkedin.com/in/cameron-harte" className="navbar-brand">Click Me!</a></div>
+                <footer className="footer">
+                    <div><a href="http://www.linkedin.com/in/cameron-harte" className="navbar-brand">Click Me!</a></div>
                 </footer>
             </div>
         )
